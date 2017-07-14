@@ -27,6 +27,11 @@ a {
   font-weight: 600;
   font-size: 18px;
   margin: 0 20px;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  color: white;
 }
 
 p {
@@ -49,6 +54,40 @@ main{
   margin: 35px auto;
 }
 
+footer {
+  text-transform: capitalize;
+  padding: 0 20px;
+  background-color: #0D2C40;
+  color: white;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+
 img {
   margin: 40px 8px 0 8px;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.copyright {
+  float: left;
+  font-family: Raleway;
+}
+
+.message {
+  float: right;
+  font-family: Raleway;
+}
+
+.name {
+  color: #F15B31;
+  font-weight: 700;
 }
