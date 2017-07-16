@@ -1,93 +1,128 @@
+/* -------------------------------
+	HTML Element Styles - Start
+	------------------------------*/
 body {
-  text-align: center;
-  margin: 0;
+	text-align: center;
+	margin: 0;
 }
 
 h1 {
-  font-family: Raleway;
-  color: #0D2C40;
-  letter-spacing: 1px;
-  font-weight: 400;
-  font-size: 45px;
-  margin: 0;
+	font-family: Raleway;
+	color: #0D2C50;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 45px;
+	margin: 0;
 }
 
-h2 {
-  font-family: Raleway;
-  color: #F15B31;
-  letter-spacing: 1px;
-  font-weight: 600;
-  font-size: 20px;
+h2, h3 {
+	font-family: Raleway;
+	color: #0D2C40;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 20px;
 }
 
 a {
-  font-family: Raleway;
-  color: #F15B31;
-  letter-spacing: 1px;
-  font-weight: 600;
-  font-size: 18px;
-  margin: 0 20px;
-  border-bottom: 2px solid transparent;
+	text-decoration: none;
+	font-family: Raleway;
+	color: #F15B31;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	margin-right: 10px;
 }
 
 a:hover {
-  color: white;
+	text-decoration: underline;
+	font-size: 19px;
 }
 
 p {
-  margin: 0 auto;
+	font-family: "DROID SERIF";
+	line-height: 26px;
+	font-size: 18px;
+	margin: 0 20px 20px 20px;
 }
 
+
 header {
-  background-color: #F15B31;
-  padding: 30px 20px;
-  margin: 0 auto;
+	background-color: #F15B31;
+	padding: 30px 20px;
 }
 
 nav {
-  background-color: #00A6B3;
-  padding: 20px 0;
-}
-
-main{
-  width: 850px;
-  margin: 35px auto;
+	background-color: #00A6B3;
+	padding: 20px 0;
 }
 
 footer {
-  text-transform: capitalize;
-  padding: 0 20px;
-  background-color: #0D2C40;
-  color: white;
-  font-size: 14px;
-  letter-spacing: .08em;
-  font-weight: 500;
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
 }
 
 img {
-  margin: 40px 8px 0 8px;
+	margin: 10px 10px 50px 10px;
+}
+/* -------------------------------
+	HTML Element Styles - End
+	------------------------------*/
+
+/* -------------------------------
+	Navigation - Start
+	------------------------------*/
+.navigation {
+	font-family: Raleway;
+	color: #F1B331;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 18px;
+	margin: 0 20px;
+	border-bottom: 2px solid transparent;
 }
 
-.clearfix:after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
+.navigation:hover {
+	border-bottom: 2px solid #F1B331;
+}
+/* -------------------------------
+	Navigation - End
+	------------------------------*/
+
+/* -------------------------------
+	Footer - Start
+	------------------------------*/
+.copyright, .message {
+	font-family: Raleway;
 }
 
 .copyright {
-  float: left;
-  font-family: Raleway;
+	float: left;
+	margin: 10px;
 }
 
 .message {
-  float: right;
-  font-family: Raleway;
+	float: right;
+	margin: 10px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
 
 .name {
-  color: #F15B31;
-  font-weight: 700;
+	color: #F15B31;
+	font-weight: 700;
 }
+/* -------------------------------
+	Footer - End
+	------------------------------*/
